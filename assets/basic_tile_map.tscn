@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://dyfu86ajnkpob"]
+
+[ext_resource type="Texture2D" uid="uid://jnam13ruq4or" path="res://level_textures/RoughTiles.png" id="1_4repw"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t5dhf"]
+texture = ExtResource("1_4repw")
+6:1/size_in_atlas = Vector2i(5, 5)
+6:1/0 = 0
+6:6/size_in_atlas = Vector2i(5, 5)
+6:6/0 = 0
+1:6/size_in_atlas = Vector2i(5, 5)
+1:6/0 = 0
+1:13/size_in_atlas = Vector2i(5, 5)
+1:13/0 = 0
+6:13/size_in_atlas = Vector2i(5, 5)
+6:13/0 = 0
+6:18/size_in_atlas = Vector2i(5, 5)
+6:18/0 = 0
+1:18/size_in_atlas = Vector2i(5, 5)
+1:18/0 = 0
+13:13/size_in_atlas = Vector2i(5, 5)
+13:13/0 = 0
+18:13/size_in_atlas = Vector2i(5, 5)
+18:13/0 = 0
+13:18/size_in_atlas = Vector2i(5, 5)
+13:18/0 = 0
+13:6/size_in_atlas = Vector2i(5, 5)
+13:6/0 = 0
+13:1/size_in_atlas = Vector2i(5, 5)
+13:1/0 = 0
+18:1/size_in_atlas = Vector2i(5, 5)
+18:1/0 = 0
+18:6/size_in_atlas = Vector2i(5, 5)
+18:6/0 = 0
+1:1/size_in_atlas = Vector2i(5, 5)
+1:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_uiwcs"]
+sources/0 = SubResource("TileSetAtlasSource_t5dhf")
+
+[node name="BasicTileMap" type="TileMapLayer"]
+tile_map_data = PackedByteArray(0, 0, 247, 255, 255, 255, 0, 0, 1, 0, 6, 0, 0, 16, 241, 255, 255, 255, 0, 0, 1, 0, 6, 0, 0, 48, 241, 255, 249, 255, 0, 0, 1, 0, 6, 0, 0, 32, 247, 255, 249, 255, 0, 0, 1, 0, 6, 0, 0, 0)
+tile_set = SubResource("TileSet_uiwcs")
